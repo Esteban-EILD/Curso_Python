@@ -1,4 +1,4 @@
-energy=100
+energy=100 # Variable de control
 while energy > 0:
     energy -= 15
     print("\n Energía restante:", energy)
@@ -20,3 +20,8 @@ for numero in range(1, 10):
         break  # Rompe el bucle por completo
         
     print("Número actual:", numero)
+    
+"""Este código muestra cómo usar 'break' para salir de un bucle y
+'continue' para saltar a la siguiente iteración. En este caso,
+el número 3 se salta y el ciclo se detiene completamente al
+llegar al número 7."""
