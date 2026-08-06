@@ -1,0 +1,11 @@
+# Simulación ejemplo 4 de ejercicios semana 1 PC 
+lista_invitados = ["Jorge", "Maria", "Juan", "Ana", "Pedro"]
+lista_relacion_invitados = ["amigo", "hermana", "vecino", "colega","jefe de trabajo"]
+
+f = dict(zip(lista_invitados, lista_relacion_invitados))
+
+def lista_cumpleanos():
+    for num,(inv,rel) in enumerate(f.items(), start=1):
+        print(f"{num}, Usted,{inv}, mi {rel}, ha sido invitado a mi cumpleaños")
+
+lista_cumpleanos()
